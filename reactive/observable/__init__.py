@@ -1,3 +1,3 @@
 from .Reactive import Reactive
-
-__all__ = ["Reactive"]
+from .Computed import Computed
+__all__ = ["Reactive", "Computed"]
