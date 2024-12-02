@@ -1,3 +1,3 @@
-from . import Watch
+from .Watch import Watch
 
 __all__ = ["Watch"]

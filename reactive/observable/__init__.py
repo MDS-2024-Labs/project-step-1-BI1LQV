@@ -1,3 +1,3 @@
-from . import Reactive
+from .Reactive import Reactive
 
 __all__ = ["Reactive"]
