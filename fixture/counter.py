@@ -1,5 +1,5 @@
 from reactive.observable import Reactive, Computed
-from reactive.observer import Watch
+from reactive.observer import Watch, WatchAttr
 
 counter = Reactive({"value": 1})
 doubled_counter = Computed(lambda: counter.value * 2)
@@ -11,3 +11,10 @@ print(counter.value)
 counter.value += 1
 
 counter.value += 1
+
+
+
+watcher = WatchAttr(attributes=[counter, doubled_counter], effect = lambda: print())
+counter.value = 10
+counter.value = 20
+watcher.stop()
