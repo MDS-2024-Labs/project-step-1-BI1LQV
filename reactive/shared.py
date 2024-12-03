@@ -1,1 +1,1 @@
-current_observer = []
+current_observers = []
