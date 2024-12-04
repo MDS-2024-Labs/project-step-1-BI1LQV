@@ -55,7 +55,7 @@ It has a private Map attribute to store all dependent Reactive objects and provi
 
 ### Details:
 
-\__init__: Store the initial lambda and call self.\__track__ method.
+\__init__: Store the initial lambda and call self._track method.
 
 _track: Call the initial lambda function and track all dependent Reactive objects.
 
