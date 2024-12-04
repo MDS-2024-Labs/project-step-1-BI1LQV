@@ -51,9 +51,9 @@ class Computed(Reactive):
     def _update(self) -> None:... # Wrap the the initial lambda function with a mutation to self.data and pass the function into a Watch.
 ```
 
-### observer
+## observer
 
-#### Watch
+### Watch
 
 #### Description
 
